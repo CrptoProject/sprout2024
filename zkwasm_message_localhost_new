@@ -1,0 +1,16 @@
+node@node-Standard-PC-i440FX-PIIX-1996:~/sprout/test/project$ ioctl-unstable ws message send --project-id 10002 --project-version "0.1" --data "{\"private_input\": [1, 1] , \"public_input\": [] }"
+{
+  "messageID": "49d70eeb-5077-4e3f-bf12-bed107de82cb"
+}
+node@node-Standard-PC-i440FX-PIIX-1996:~/sprout/test/project$ ioctl-unstable ws message query --message-id "49d70eeb-5077-4e3f-bf12-bed107de82cb"
+{
+  "messageID": "49d70eeb-5077-4e3f-bf12-bed107de82cb",
+  "states": [
+    {
+      "state": "received",
+      "time": "2024-01-09T12:47:36.194862Z",
+      "description": ""
+    }
+  ]
+}
+node@node-Standard-PC-i440FX-PIIX-1996:~/sprout/test/project$
