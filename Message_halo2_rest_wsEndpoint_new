@@ -1,0 +1,37 @@
+node@node-Standard-PC-i440FX-PIIX-1996:~/sprout/test/project$ ioctl-unstable ws message query --message-id "b0c7ab39-f367-4e30-8c77-64f65253ea77"
+{
+  "messageID": "b0c7ab39-f367-4e30-8c77-64f65253ea77",
+  "states": [
+    {
+      "state": "received",
+      "time": "2024-01-09T13:03:34.470937Z",
+      "description": ""
+    },
+    {
+      "state": "fetched",
+      "time": "2024-01-09T13:03:34.62762Z",
+      "description": ""
+    },
+    {
+      "state": "proving",
+      "time": "2024-01-09T13:03:34.627835Z",
+      "description": ""
+    },
+    {
+      "state": "proved",
+      "time": "2024-01-09T13:03:34.849909Z",
+      "description": ""
+    },
+    {
+      "state": "outputting",
+      "time": "2024-01-09T13:03:34.85024Z",
+      "description": ""
+    },
+    {
+      "state": "outputted",
+      "time": "2024-01-09T13:03:34.850471Z",
+      "description": ""
+    }
+  ]
+}
+node@node-Standard-PC-i440FX-PIIX-1996:~/sprout/test/project$
