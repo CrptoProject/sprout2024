@@ -1,0 +1,42 @@
+node@node-Standard-PC-i440FX-PIIX-1996:/home/linuxbrew/.linuxbrew/bin$ ./ioctl-unstable ws message send --project-id 10002 --project-version "0.1" --data "{\"private_input\": [1, 1] , \"public_input\": [] }"
+{
+  "messageID": "d247d117-89ef-459a-94c2-3637859fd58c"
+}
+node@node-Standard-PC-i440FX-PIIX-1996:/home/linuxbrew/.linuxbrew/bin$ 
+
+
+
+
+
+ws message query --message-id "d247d117-89ef-459a-94c2-3637859fd58c"
+
+
+
+
+96:/home/linuxbrew/.linuxbrew/bin$ ./ioctl-unstable ws message query --message-id "d247d117-89ef-459a-94c2-3637859fd58c"
+{
+  "messageID": "d247d117-89ef-459a-94c2-3637859fd58c",
+  "states": [
+    {
+      "state": "received",
+      "time": "2023-12-19T00:56:09.095309Z",
+      "description": ""
+    },
+    {
+      "state": "fetched",
+      "time": "2023-12-19T00:56:12.087152Z",
+      "description": ""
+    },
+    {
+      "state": "proving",
+      "time": "2023-12-19T00:56:12.087349Z",
+      "description": ""
+    },
+    {
+      "state": "failed",
+      "time": "2023-12-19T00:56:28.21694Z",
+      "description": ""
+    }
+  ]
+}
+node@node-Standard-PC-i440FX-PIIX-1996:/home/linuxbr
